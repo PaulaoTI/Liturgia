@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/santagemma.jpg" type="image/x-icon">
+    <title>Liturgia - Comunidade Santa Gemma Galgani</title>
+    <style>
+        .menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo {
+            height: 150px;
+            width: 150px;
+            border-radius: 40%;
+            border: 1px solid black;
+        }
+
+        .menu .h1 {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        div h1 {
+            font-size: 23px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(0, 0, 0);
+            margin: 5px;
+        }
+
+        .div-folhetos-1,
+        .div-folhetos-2,
+        .div-folhetos-3,
+        .div-folhetos-4,
+        .div-folhetos-5,
+        .div-folhetos-6 {
+            height: 7vh;
+            width: 330px;
+            max-width: 500px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            border: 1.5px solid rgb(0, 0, 0);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+        }
+
+        .text-folhetos-1,
+        .text-folhetos-2,
+        .text-folhetos-3,
+        .text-folhetos-4,
+        .text-folhetos-5,
+        .text-folhetos-6 {
+            font-size: 17px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.2em;
+            color: black;
+        }
+
+        .button-folhetos-1,
+        .button-folhetos-2,
+        .button-folhetos-3,
+        .button-folhetos-4,
+        .button-folhetos-5,
+        .button-folhetos-6 {
+            height: 60px;
+            width: 190px;
+            font-size: 1.2em;
+            background-color: rgb(224, 224, 224);
+            border: none;
+            cursor: pointer;
+            color: #d8a129e1;
+            border-radius: 5px;
+            margin-left: 9%;
+        }
+
+        @media (max-width: 768px) {
+            #root {
+                padding: 0.5rem;
+            }
+
+            h1 {
+                font-size: 17px;
+            }
+
+        }
+
+        @media (max-width: 768px) {
+
+            .div-folhetos-1,
+            .div-folhetos-2,
+            .div-folhetos-3,
+            .div-folhetos-4,
+            .div-folhetos-5,
+            .div-folhetos-6 {
+                width: 95%;
+                padding: 10px;
+                height: 90px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .button-folhetos-1,
+            .button-folhetos-2,
+            .button-folhetos-3,
+            .button-folhetos-4,
+            .button-folhetos-5,
+            .button-folhetos-6 {
+                height: 40px;
+                width: 100px;
+                font-size: 1em;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu">
+        <img class="logo" src="img/santagemma.jpg" alt="SantaGemma" draggable="false">
+        <h1 class="h1">Comunidade Santa Gemma Galgani</h1>
+    </div><br>
+    <div>
+        <h1>Folhetos</h1>
+    </div>
+    <br><br>
+    <div class="div-folhetos-1">
+        <h1 class="text-folhetos-1">27-abr-2025</h1>
+        <a href="folhetos/27-abr-2025.pdf" target="_blank" rel="noopener noreferrer">
+        <button class="button-folhetos-1">Baixar </button></a>
+    </div>
+    <div class="div-folhetos-2">
+        <h1 class="text-folhetos-2">04-mai-2025</h1>
+        <a href="folhetos/04-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
+        <button class="button-folhetos-2">Baixar </button></a>
+    </div>
+    <div class="div-folhetos-3">
+        <h1 class="text-folhetos-3">11-mai-2025</h1>
+        <a href="folhetos/11-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
+        <button class="button-folhetos-3">Baixar </button></a>
+    </div>
+    <div class="div-folhetos-4">
+        <h1 class="text-folhetos-4">18-mai-2025</h1>
+        <a href="folhetos/18-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
+        <button class="button-folhetos-4">Baixar </button></a>
+    </div>
+    <div class="div-folhetos-5">
+        <h1 class="text-folhetos-5">24-mai-2025</h1>
+        <a href="folhetos/24-maio-2025.pdf" target="_blank" rel="noopener noreferrer">
+        <button class="button-folhetos-5">Baixar </button></a>
+    </div>
+    <div class="div-folhetos-6">
+        <h1 class="text-folhetos-6">25-mai-2025</h1>
+        <a href="folhetos/25-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
+        <button class="button-folhetos-6">Baixar </button></a>
+    </div>
+</body>
+
+</html>
