@@ -43,6 +43,13 @@
             margin: 5px;
         }
 
+        .folhetos-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
         .div-folhetos-1,
         .div-folhetos-2,
         .div-folhetos-3,
@@ -100,10 +107,6 @@
                 font-size: 17px;
             }
 
-        }
-
-        @media (max-width: 768px) {
-
             .div-folhetos-1,
             .div-folhetos-2,
             .div-folhetos-3,
@@ -112,10 +115,9 @@
             .div-folhetos-6 {
                 width: 95%;
                 padding: 10px;
-                height: 90px;
-                display: flex;
+                height: auto;
                 flex-direction: column;
-                align-items: center;
+                justify-content: center;
             }
 
             .button-folhetos-1,
@@ -127,7 +129,7 @@
                 height: 40px;
                 width: 100px;
                 font-size: 1em;
-                margin: 0 auto;
+                margin: 10px 0 0 0;
             }
         }
 
@@ -141,7 +143,6 @@
         }
     </style>
 </head>
-
 <body>
     <div class="menu">
         <img class="logo" src="img/santagemma.jpg" alt="SantaGemma" draggable="false">
@@ -149,40 +150,38 @@
     </div><br>
     <div>
         <h1>Folhetos</h1>
-    </div>
-    <br><br>
-    <div class="div-folhetos-1">
-        <h1 class="text-folhetos-1">27-abr-2025</h1>
-        <a href="folhetos/27-abr-2025.pdf" target="_blank" rel="noopener noreferrer">
-            <button class="button-folhetos-1">Baixar </button></a>
-    </div>
-    <div class="div-folhetos-2">
-        <h1 class="text-folhetos-2">04-mai-2025</h1>
-        <a href="folhetos/04-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
-            <button class="button-folhetos-2">Baixar </button></a>
-    </div>
-    <div class="div-folhetos-3">
-        <h1 class="text-folhetos-3">11-mai-2025</h1>
-        <a href="folhetos/11-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
-            <button class="button-folhetos-3">Baixar </button></a>
-    </div>
-    <div class="div-folhetos-4">
-        <h1 class="text-folhetos-4">18-mai-2025</h1>
-        <a href="folhetos/18-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
-            <button class="button-folhetos-4">Baixar </button></a>
-    </div>
-    <div class="div-folhetos-5">
-        <h1 class="text-folhetos-5">24-mai-2025</h1>
-        <a href="folhetos/24-maio-2025.pdf" target="_blank" rel="noopener noreferrer">
-            <button class="button-folhetos-5">Baixar </button></a>
-    </div>
-    <div class="div-folhetos-6">
-        <h1 class="text-folhetos-6">25-mai-2025</h1>
-        <a href="folhetos/25-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
-            <button class="button-folhetos-6">Baixar </button></a>
-    </div>
-    <div>
-        <h1>Escalas</h1>
+    </div><br>
+    <div class="folhetos-container">
+        <div class="div-folhetos-1">
+            <h1 class="text-folhetos-1">04-mai-2025</h1>
+            <a href="folhetos/04-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
+                <button class="button-folhetos-1">Baixar</button>
+            </a>
+        </div>
+        <div class="div-folhetos-2">
+            <h1 class="text-folhetos-2">11-mai-2025</h1>
+            <a href="folhetos/11-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
+                <button class="button-folhetos-2">Baixar</button>
+            </a>
+        </div>
+        <div class="div-folhetos-3">
+            <h1 class="text-folhetos-3">18-mai-2025</h1>
+            <a href="folhetos/18-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
+                <button class="button-folhetos-3">Baixar</button>
+            </a>
+        </div>
+        <div class="div-folhetos-4">
+            <h1 class="text-folhetos-4">24-mai-2025</h1>
+            <a href="folhetos/24-maio-2025.pdf" target="_blank" rel="noopener noreferrer">
+                <button class="button-folhetos-4">Baixar</button>
+            </a>
+        </div>
+        <div class="div-folhetos-5">
+            <h1 class="text-folhetos-5">25-mai-2025</h1>
+            <a href="folhetos/25-mai-2025.pdf" target="_blank" rel="noopener noreferrer">
+                <button class="button-folhetos-5">Baixar</button>
+            </a>
+        </div>
     </div>
     <div>
         <img class="escala-img" src="escalas/Escala_Maio.jpg" alt="Escala de maio">
