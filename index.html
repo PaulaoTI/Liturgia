@@ -18,7 +18,7 @@
             height: 150px;
             width: 150px;
             border-radius: 10px;
-            border: 2px solid black;
+            border: 1px solid black;
             user-select: none;
         }
 
@@ -87,6 +87,12 @@
             user-select: none;
         }
 
+        .button-folhetos:disabled {
+            background-color: #696969;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
         @media (max-width: 768px) {
             #root {
                 padding: 0.5rem;
@@ -126,7 +132,7 @@
 
 <body>
     <div class="menu">
-        <img class="logo" src="img/santagemma.jpg" alt="SantaGemma" draggable="false">
+        <img class="logo" src="img/SantaGema.png" alt="Santa Gemma Galgani" draggable="false">
     </div><br>
     <div>
         <h1>Folhetos</h1>
@@ -139,16 +145,18 @@
         <div>
             <h1>Escala</h1>
         </div><br>
+
         <div class="div-folhetos">
-            <h1 class="text-folhetos">Dezembro</h1>
-            <a href="./escalas/EscalaDeDezembro.jpg">
-                <button class="button-folhetos">
-                    Baixar
-                </button>
-            </a>
+            <div id="escalasContent" class="content hidden">
+                <div id="escalasContainer" class="folhetos-container"></div>
+            </div>
         </div>
+
     </div>
+
+
     <script src="./scripts/folhetos.js"></script>
+    <script src="./scripts/escala.js"></script>
 </body>
 
 </html>
