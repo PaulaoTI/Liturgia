@@ -1,7 +1,7 @@
-/*
+
 document.addEventListener("DOMContentLoaded", () => {
     const escalas = [
-        { nome: "Janeiro", arquivo: "escalas/EscalaDeDezembro.jpg" }
+        { nome: "Janeiro", arquivo: "escalas/EscaladeJaneiro.jpg" }
     ];
 
     const container = document.getElementById("escalasContainer");
@@ -22,29 +22,29 @@ document.addEventListener("DOMContentLoaded", () => {
         container.appendChild(div);
     });
 });
-*/
 
-document.addEventListener("DOMContentLoaded", () => {
-    const escalas = [
-        { nome: "Janeiro", arquivo: "" }
-    ];
 
-    const container = document.getElementById("escalasContainer");
+// document.addEventListener("DOMContentLoaded", () => {
+//     const escalas = [
+//         { nome: "Janeiro", arquivo: "" }
+//     ];
 
-    escalas.forEach(escala => {
-        const div = document.createElement("div");
-        div.classList.add("div-escala");
+//     const container = document.getElementById("escalasContainer");
 
-        const disabled = escala.arquivo === "" ? "disabled" : "";
-        const link = escala.arquivo || "#";
+//     escalas.forEach(escala => {
+//         const div = document.createElement("div");
+//         div.classList.add("div-escala");
 
-        div.innerHTML = `
-            <h1 class="text-escala">${escala.nome}</h1>
-            <a href="${link}">
-                <button class="button-folhetos" ${disabled}>Baixar</button>
-            </a>
-        `;
+//         const disabled = escala.arquivo === "" ? "disabled" : "";
+//         const link = escala.arquivo || "#";
 
-        container.appendChild(div);
-    });
-});
+//         div.innerHTML = `
+//             <h1 class="text-escala">${escala.nome}</h1>
+//             <a href="${link}">
+//                 <button class="button-folhetos" ${disabled}>Baixar</button>
+//             </a>
+//         `;
+
+//         container.appendChild(div);
+//     });
+// });
