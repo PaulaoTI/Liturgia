@@ -1,3 +1,5 @@
+
+/*
 document.addEventListener("DOMContentLoaded", () => {
     const escalas = [
         { nome: "Maio", arquivo: "" }
@@ -22,11 +24,11 @@ document.addEventListener("DOMContentLoaded", () => {
         container.appendChild(div);
     });
 });
+*/
 
-/*
 document.addEventListener("DOMContentLoaded", () => {
     const escalas = [
-        { nome: "Maio", arquivo: "escalas/" }
+        { nome: "Maio", arquivo: "/escalas/EscaladeMaio.jpg" }
     ];
 
     const container = document.getElementById("escalasContainer");
@@ -40,11 +42,10 @@ document.addEventListener("DOMContentLoaded", () => {
         div.innerHTML = `
             <h1 class="text-escala">${escala.nome}</h1>
             <a href="${link}" target="_blank">
-                <button class="button-folhetos">Baixar</button>
+                <button class="button-escala">Baixar</button>
             </a>
         `;
 
         container.appendChild(div);
     });
 });
-*/
