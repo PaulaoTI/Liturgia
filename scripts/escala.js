@@ -1,5 +1,4 @@
 
-/*
 document.addEventListener("DOMContentLoaded", () => {
     const escalas = [
         { nome: "Maio", arquivo: "" }
@@ -20,12 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 <button class="button-folhetos" ${disabled}>Baixar</button>
             </a>
         `;
-
+        
         container.appendChild(div);
     });
 });
-*/
 
+/*
 document.addEventListener("DOMContentLoaded", () => {
     const escalas = [
         { nome: "Maio", arquivo: "/escalas/EscaladeMaio.jpg" }
@@ -49,3 +48,4 @@ document.addEventListener("DOMContentLoaded", () => {
         container.appendChild(div);
     });
 });
+*/
