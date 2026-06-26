@@ -1,7 +1,7 @@
 /*
 document.addEventListener("DOMContentLoaded", () => {
     const escalas = [
-        { nome: "JUNHO", arquivo: "" }
+        { nome: "JULHO", arquivo: "" }
     ];
 
     const container = document.getElementById("escalasContainer");
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
     const escalas = [
-        { nome: "JUNHO", arquivo: "/escalas/EscaladeJunho.jpg" }
+        { nome: "JULHO", arquivo: "/escalas/EscaladeJulho.jpg" }
     ];
 
     const container = document.getElementById("escalasContainer");
