@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const folhetos = [
 
-        { data: "28-Jun-26", arquivo: "02-08-26.pdf" },
-        { data: "05-Jul-26", arquivo: "09-08-26.pdf" },
-        { data: "12-Jul-26", arquivo: "16-08-26.pdf" },
-        { data: "19-Jul-26", arquivo: "25-08-26.pdf" },
-        { data: "26-Jul-26", arquivo: "30-08-26.pdf" },
+        { data: "02-Ago-26", arquivo: "02-08-26.pdf" },
+        { data: "09-Ago-26", arquivo: "09-08-26.pdf" },
+        { data: "16-Ago-26", arquivo: "16-08-26.pdf" },
+        { data: "23-Ago-26", arquivo: "23-08-26.pdf" },
+        { data: "30-Ago-26", arquivo: "30-08-26.pdf" },
     ];
 
     const coresFolhetos = [
