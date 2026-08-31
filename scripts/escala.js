@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
     const escalas = [
-        { nome: "AGOSTO", arquivo: "/escalas/EscaladeAgosto.jpg" }
+        { nome: "SETEMBRO", arquivo: "/escalas/EscaladeSetembro.jpg" }
     ];
 
     const container = document.getElementById("escalasContainer");
