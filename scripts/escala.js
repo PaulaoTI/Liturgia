@@ -1,4 +1,4 @@
-
+/*
 document.addEventListener("DOMContentLoaded", () => {
     const escalas = [
         { nome: "NOVEMBRO", arquivo: "" }
@@ -23,11 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
         container.appendChild(div);
     });
 });
+*/
 
-/*
 document.addEventListener("DOMContentLoaded", () => {
     const escalas = [
-        { nome: "NOVEMBRO", arquivo: "" }
+        { nome: "NOVEMBRO", arquivo: "../escalas/Escala de Outubro - Comunidade Santa Gemma - Liturgia - 2026.jpg" }
     ];
 
     const container = document.getElementById("escalasContainer");
@@ -48,4 +48,4 @@ document.addEventListener("DOMContentLoaded", () => {
         container.appendChild(div);
     });
 });
-*/
+
